@@ -11,7 +11,7 @@ import { HiPlus } from "react-icons/hi";
 import { PrimaryButton } from "@/components/ui/buttons";
 import Link from "next/link";
 
-export default function page() {
+export default function Page() {
     const [helpRequests, setHelpRequests] = useState([])
     const [resources, setResources] = useState([])
     useEffect(() => {

@@ -10,7 +10,7 @@ import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, D
 import { Input } from '@/components/ui/input';
 import { updateStatusAdmin } from '../actions/help_requests';
 
-export default function page() {
+export default function Page() {
   const [helpRequests, sethelpRequests] = useState([])
   useEffect(() => {
     (async () => {

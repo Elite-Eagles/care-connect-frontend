@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { getDisasters } from '../actions/disasters'
 import { apiUrl } from '../actions/api'
 
-export default function page() {
+export default function Page() {
   const [disasters, setDisasters] = useState([])
   useEffect(() => {
     (async () => {

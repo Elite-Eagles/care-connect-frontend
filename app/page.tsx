@@ -275,7 +275,6 @@ export default function Home() {
           <Carousel slides={slideData} />
         </div>
       </div>
-      <Timeline data={data} />
     </div>
   )
 }

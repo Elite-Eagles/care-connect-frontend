@@ -9,7 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import React, { useState } from 'react'
 import usePlacesAutocomplete, { getGeocode, getLatLng } from 'use-places-autocomplete';
 
-export default function page() {
+export default function Page() {
     const [file, setFiles] = useState<File[]>([]);
     const [select, setSelect] = useState<string>('')
     const {

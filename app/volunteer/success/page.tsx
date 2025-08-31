@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
     <div className='min-h-screen flex flex-col items-center justify-center'>
         <h1 className='text-4xl font-bold'>Thank You for Registering as a Volunteer!</h1>

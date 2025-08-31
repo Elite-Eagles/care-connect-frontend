@@ -5,7 +5,7 @@ import React from 'react'
 import { donate } from '../actions/donate'
 import usePlacesAutocomplete, { getGeocode, getLatLng } from "use-places-autocomplete";
 
-export default function page() {
+export default function Page() {
     const {
         ready,
         value,

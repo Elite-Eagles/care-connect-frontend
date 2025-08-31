@@ -7,7 +7,7 @@ import { HiLocationMarker, HiPlus } from "react-icons/hi";
 import { apiUrl } from '../actions/api'
 import Link from 'next/link'
 
-export default async function page() {
+export default async function Page() {
     const data = await getUserHelpRequests()
     if (data?.length != 0) {
         return (

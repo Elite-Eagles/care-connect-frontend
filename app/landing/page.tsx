@@ -5,7 +5,7 @@ import { UserState } from '@/components/userContext';
 import { useRouter } from 'next/navigation';
 import React, { useEffect } from 'react'
 
-export default function page() {
+export default function Page() {
     const user = UserState()
     const router = useRouter()
     useEffect(() => {
